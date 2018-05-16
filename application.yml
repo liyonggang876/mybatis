@@ -1,0 +1,21 @@
+server:
+  port: 5656
+
+logging:
+  path: logs
+  file: mylog.log
+
+spring:
+  application:
+    name: report
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc.mysql://172.19.24.207:3306/customer_center
+    url: jdbc:mysql://172.19.24.207:3306/card_center
+    username: ceshi
+    password: test207hehe
+
+mybatis:
+  type-aliases-package: com.course.model
+  mapper-locations:
+    - mapper/*

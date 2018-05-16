@@ -9,7 +9,6 @@
                 <methods>
                     <include name="testDemo"/>
                     <include name="testDemo1"/>
-
                 </methods>
             </class>
         </classes>
